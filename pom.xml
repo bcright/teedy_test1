@@ -121,7 +121,7 @@
 	  <!-- printFailingErrors is pretty useful -->
 	  <printFailingErrors>true</printFailingErrors>
 	  <rulesets>
-	    <ruleset>practice-answer.xml</ruleset>
+	    <ruleset>/home/bc/Desktop/teedy/practice-answer.xml</ruleset>
 	  </rulesets>
 	</configuration>
 	<executions>
