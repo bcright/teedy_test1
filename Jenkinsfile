@@ -11,6 +11,17 @@ pipeline {
                 sh 'mvn pmd:pmd --fail-never' 
             }
         }
+        stage('test') {
+            steps {
+                sh 'mvn test -Dtest=TestCss test'
+            }
+        }
+        stage('doc') {
+            steps {
+                sh 'mvn javadoc:jar --fail-never'
+            }
+        }
+    }
     }
 
     post {
